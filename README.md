@@ -36,20 +36,20 @@ The DPO Professional Suite follows a layered full-stack architecture:
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                     Frontend Layer                       │
-│         HTML5 · CSS3 · JavaScript · Quill Editor        │
+│                     Frontend Layer                      │
+│         HTML5 · CSS · JavaScript · Quill Editor         │
 ├─────────────────────────────────────────────────────────┤
-│                    Application Layer                     │
-│              Python 3 · Flask · REST API                 │
+│                    Application Layer                    │
+│              Python 3 · Flask · REST API                │
 ├─────────────────────────────────────────────────────────┤
-│                    AI/ML Layer                           │
+│                    AI/ML Layer                          │
 │         Qwen-VL Vision-Language Model · LLM APIs        │
 ├─────────────────────────────────────────────────────────┤
-│                    Security Layer                        │
+│                    Security Layer                       │
 │          AES-256 Encryption · Session Management        │
 ├─────────────────────────────────────────────────────────┤
-│                     Data Layer                           │
-│                  SQLite · PhpMyAdmin                     │
+│                     Data Layer                          │
+│                      SQLite                             │
 └─────────────────────────────────────────────────────────┘
 ```
 
@@ -125,11 +125,11 @@ The DPO Professional Suite was developed with the following regulatory framework
 | Category | Technologies |
 |----------|-------------|
 | **Backend** | Python 3, Flask, REST API |
-| **Frontend** | HTML5, CSS3, JavaScript, Quill Editor |
+| **Frontend** | HTML5, CSS, JavaScript, Quill Editor |
 | **AI / ML** | Qwen-VL (Vision-Language Model), LLM API integration |
-| **Database** | SQLite, PhpMyAdmin |
+| **Database** | SQLite |
 | **Security** | AES-256 Encryption, Session Management |
-| **Development Tools** | PyCharm, Visual Studio Code, GitHub |
+| **Development Tools** | Visual Studio Code |
 | **Documentation** | Overleaf (LaTeX) |
 
 ---
@@ -169,8 +169,8 @@ The included PDF report documents the following:
 BSc Information Technology — Ionian University (2021–2025)
 
 - 📧 kaldanis@outlook.com
-- 💼 [linkedin.com/in/christos-kaldanis](https://linkedin.com/in/christos-kaldanis)
-- 🐙 [github.com/christos-kaldanis](https://github.com/christos-kaldanis)
+- 💼 [linkedin.com/in/christos-kaldanis](www.linkedin.com/in/christos-kaldanis-677107310)
+- 🐙 [github.com/christos-kaldanis](https://github.com/ChristosKaldanis)
 
 ---
 
@@ -196,4 +196,4 @@ For licensing enquiries, collaboration requests, or any other use not explicitly
 
 ---
 
-*Repository last updated: 2025*
+*Repository last updated: 2026*

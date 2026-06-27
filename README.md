@@ -4,13 +4,13 @@
 
 ---
 
-## ⚠️ Repository Notice
+## Repository Notice
 
 This repository contains **only the final project report (PDF)** of the DPO Professional Suite. The source code, datasets, models, and all other implementation assets are **proprietary and not publicly available**.
 
 ---
 
-## 📋 Project Overview
+## Project Overview
 
 The **DPO Professional Suite** is a production-quality, full-stack web application developed independently as a final-year BSc project at the **Ionian University, Department of Information Technology** (2024–2025).
 
@@ -20,7 +20,7 @@ The system automates these processes through a combination of AI-driven data ext
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Automate the extraction of personal data processing information from unstructured documents (Excel files, PDFs, forms) with high accuracy
 - Generate GDPR-compliant privacy policies automatically from structured data inputs
@@ -30,7 +30,7 @@ The system automates these processes through a combination of AI-driven data ext
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 The DPO Professional Suite follows a layered full-stack architecture:
 
@@ -55,7 +55,7 @@ The DPO Professional Suite follows a layered full-stack architecture:
 
 ---
 
-## ⚙️ Core Features
+## Core Features
 
 ### 1. AI-Driven Data Extraction
 - Integrated **Qwen-VL**, a state-of-the-art vision-language model, for automated extraction of personal data processing information from heterogeneous document formats
@@ -87,7 +87,7 @@ The DPO Professional Suite follows a layered full-stack architecture:
 
 ---
 
-## 📊 Performance Metrics
+## Performance Metrics
 
 | Metric | Result |
 |--------|--------|
@@ -100,16 +100,30 @@ The DPO Professional Suite follows a layered full-stack architecture:
 
 ---
 
-## 🔐 Regulatory & Compliance Framework
+## Regulatory & Compliance Framework
 
 The DPO Professional Suite was developed with the following regulatory frameworks as primary references:
 
 ### GDPR (General Data Protection Regulation) — EU 2016/679
-- **Article 13 & 14** — Information to be provided where personal data are collected
-- **Article 30** — Records of processing activities (the core use case of the platform)
-- **Article 32** — Security of processing (encryption and access control requirements)
-- **Article 35** — Data protection impact assessment considerations
-
+The platform directly addresses the operational obligations arising from the following GDPR articles:
+ 
+| Article | Title | Relevance to Platform |
+|---------|-------|----------------------|
+| **Art. 12** | Transparent information, communication and modalities for the exercise of the rights of the data subject | Platform facilitates transparent communication with data subjects through clear, structured documentation outputs |
+| **Art. 13** | Information to be provided where personal data are collected from the data subject | Automated generation of required disclosure information when data is collected directly from the subject |
+| **Art. 14** | Information to be provided where personal data have not been obtained from the data subject | Supports documentation of third-party data sourcing and corresponding disclosure obligations |
+| **Art. 15** | Right of access by the data subject | Platform enables DPOs to maintain accessible records supporting subject access request responses |
+| **Art. 16** | Right to rectification | Documentation structures support tracking and recording of rectification requests and outcomes |
+| **Art. 17** | Right to erasure ('right to be forgotten') | Supports DPOs in documenting erasure obligations and managing compliance with deletion requests |
+| **Art. 18** | Right to restriction of processing | Enables recording and management of processing restriction requests across the four permitted circumstances |
+| **Art. 19** | Notification obligation regarding rectification or erasure | Supports tracking of recipient notification obligations following rectification, erasure, or restriction actions |
+| **Art. 20** | Right to data portability | Documentation framework supports structured, machine-readable data output requirements |
+| **Art. 21** | Right to object | Enables DPOs to document and manage objection requests, particularly for direct marketing and legitimate interest processing |
+| **Art. 22** | Automated individual decision-making, including profiling | Supports documentation of automated decision-making processes and required safeguards |
+| **Art. 30** | Records of processing activities | **Core use case of the platform** — automated generation and maintenance of Article 30 Records of Processing Activities (RoPA) |
+ 
+> **Note on Article 30:** This article forms the central compliance obligation the platform was designed to automate. Controllers are required to maintain detailed records including: controller identity and contact details, processing purposes, categories of data subjects and personal data, recipients, third-country transfers with appropriate safeguards, retention periods, and security measures under Article 32(1). The DPO Professional Suite automates the collection, structuring, and documentation of all these elements.
+ 
 ### ISO/IEC 27001:2022
 - Information security controls referenced in the design of data storage, encryption, and access management components
 
@@ -120,7 +134,7 @@ The DPO Professional Suite was developed with the following regulatory framework
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Category | Technologies |
 |----------|-------------|
@@ -134,7 +148,7 @@ The DPO Professional Suite was developed with the following regulatory framework
 
 ---
 
-## 📄 Repository Contents
+## Repository Contents
 
 ```
 dpo-professional-suite/
@@ -146,7 +160,7 @@ dpo-professional-suite/
 
 ---
 
-## 📑 Report Contents
+## Report Contents
 
 The included PDF report documents the following:
 
@@ -163,7 +177,7 @@ The included PDF report documents the following:
 
 ---
 
-## 👤 Author
+## Author
 
 **Christos Kaldanis**
 BSc Information Technology — Ionian University (2021–2025)
@@ -174,7 +188,7 @@ BSc Information Technology — Ionian University (2021–2025)
 
 ---
 
-## 📜 License
+## License
 
 **Copyright © 2025 Christos Kaldanis. All Rights Reserved.**
 

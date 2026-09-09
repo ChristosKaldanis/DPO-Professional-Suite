@@ -206,7 +206,7 @@ This repository and all of its contents — including but not limited to the pro
 
 For licensing enquiries, collaboration requests, or any other use not explicitly permitted above, contact: **kaldanis@outlook.com**
 
-> This project report was submitted in partial fulfilment of the requirements for the BSc in Information Technology at Ionian University. Academic integrity obligations apply to any referencing of this work.
+> This project report was submitted in partial fulfilment of the requirements for the BSc in Computer Science at Ionian University. Academic integrity obligations apply to any referencing of this work.
 
 ---
 

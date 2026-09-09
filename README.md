@@ -180,7 +180,7 @@ The included PDF report documents the following:
 ## Author
 
 **Christos Kaldanis**
-BSc Information Technology — Ionian University (2021–2025)
+BSc Computer Science — Ionian University (2021–2025)
 
 - 📧 kaldanis@outlook.com
 - 💼 [linkedin.com/in/christos-kaldanis](www.linkedin.com/in/christos-kaldanis-677107310)
